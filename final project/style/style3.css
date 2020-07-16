@@ -1,0 +1,57 @@
+* , *::before , *::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#logo {
+  height: 50px;
+}
+
+main{
+    margin: 80px 0;
+}
+
+.branch{
+    background-color: #27876e;
+    width: 100%;
+}
+.branch p{
+    padding-left: 10px;
+    margin-bottom: 4px;
+    background-color: #343a40;
+    color: white;
+}
+.addTopic{
+    font-size: 12px;
+}
+.addTopic:hover{
+    cursor: pointer;
+}
+
+.comment{
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+.link_btn {
+   background: none;
+    border: none;
+}
+
+.link_btn:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.addTopic{
+    display: none;
+}
+
+.addTopic input{
+    margin: 0 5px;
+    text-align: center;
+}
